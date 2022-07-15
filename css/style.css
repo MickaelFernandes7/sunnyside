@@ -17,6 +17,7 @@ a{text-decoration: none;}
 
 body {
     -ms-overflow-style: none;
+    width: 100%;
 }
 /* esconder scrollbar no: firefox*/
 
@@ -433,13 +434,14 @@ footer .iconsDiv .icons:hover{
     }
 
     .caixa6 .divTextImg .imgSection{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         margin-top: 790px;
     }
 
-    .caixa6 .divTextImg .imgSection{
+    .caixa6 .divTextImg .imgSection .imgSectionContainer{
         display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -700,7 +702,7 @@ footer .iconsDiv .icons:hover{
     }
 }
 
-@media (min-width: 426px) and (max-width: 575.98px) {
+@media (min-width: 425px) and (max-width: 575.98px) {
     /* header */
     header nav #logo{
         color: #fff;
@@ -1180,4 +1182,29 @@ footer .iconsDiv .icons:hover{
     footer .iconsDiv .icons{
         font-size: 21px;
     }
+}
+
+@media (min-width: 1680px) and (max-width: 1900px) {
+    .container .row #titulo{
+        padding-left: 22%;
+    }
+
+    footer div ul{
+        justify-content: space-around;
+        margin: 2% 0 0 2%;
+    }
+
+    footer div a img{         
+        margin: 5% 0 0 42%;
+        width: 20%;
+    }
+    footer .iconsDiv{
+        margin-left: 5%;
+        justify-content: center; 
+    }
+
+    footer .iconsDiv .icons{
+        font-size: 21px;
+        margin-right: 5%;
+    }   
 }
