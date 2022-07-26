@@ -144,7 +144,6 @@ header ul li #contato:hover{
 
 footer{
     width: 100%;
-    max-width: 100%;
     background-color: #458c7e;
 }
 /* Fim Configuraçãoes das caixas */
@@ -353,7 +352,7 @@ footer .iconsDiv .icons:hover{
 }
 /* Fim configuração das Sections das imagens das caixas */
 
-@media(min-width: 320px) and (max-width: 375px){
+@media(min-width: 320px) and (max-width: 374px){
     /* header */
     header nav #logo{
         color: #fff;
@@ -448,6 +447,7 @@ footer .iconsDiv .icons:hover{
     footer{
         width: 100%;
         max-width: 100%;
+
         background-color: #458c7e;
     }
     /* Fim Configuração das caixas */
@@ -475,19 +475,19 @@ footer .iconsDiv .icons:hover{
 
     .caixa2 .divTextImg .sectionAnchor, .caixa3 .divTextImg .sectionAnchor{
         margin-top: 10%;
-        margin-left: 28%;
-    }
-
-    .caixa4 .divTextImg .sectionTitleDesign, .caixa4 .divTextImg .sectionTitleFoto{
-        margin-top: -190px;
+        margin-left: 31.5%;
     }
 
     .caixa4 .divTextImg .sectionTitleDesign{
-        padding-left: 15%;
+        margin-right: 1%;
+        width: 85%;
+        margin-top: -220px;
     }
 
     .caixa4 .divTextImg .sectionTitleFoto{
-        padding-left: 25%;
+        padding-left: 25.3%;
+        letter-spacing: 1px;
+        margin-top: -190px;
     }
 
     .caixa4 .divTextImg .sectionTextDesign, .caixa4 .divTextImg .sectionTextFoto{
@@ -526,11 +526,11 @@ footer .iconsDiv .icons:hover{
 
     footer div a img{
         margin: 5% 0 0 28%;
-        width: 45%;
+        width: 50%;
     }
     
     footer .iconsDiv{
-        margin-left: 22.5%;  
+        margin-left: 25%;  
     }
     /* Fim configurações das imagens das caixas */
 
@@ -622,6 +622,12 @@ footer .iconsDiv .icons:hover{
         margin-top: 790px;
     }
     
+    footer{
+        width: 100%;
+        max-width: 100%;
+        background-color: #458c7e;
+    }
+
     footer div ul{
         justify-content: space-around;
         margin: 2% 0 0 6%;
@@ -648,16 +654,18 @@ footer .iconsDiv .icons:hover{
         margin-left: 33%;
     }
 
-    .caixa4 .divTextImg .sectionTitleDesign, .caixa4 .divTextImg .sectionTitleFoto{
-        margin-top: -190px;
-    }
-
     .caixa4 .divTextImg .sectionTitleDesign{
-        padding-left: 21.5%;
+        margin-left: 0%;
+        width: 80%;
+        padding-right: 60%;
+        text-align: center;
+        margin-top: -220px;
     }
 
     .caixa4 .divTextImg .sectionTitleFoto{
-        padding-left: 28%;
+        padding-left: 26%;
+        letter-spacing: 2px;
+        margin-top: -190px;
     }
 
     .caixa4 .divTextImg .sectionTextDesign, .caixa4 .divTextImg .sectionTextFoto{
@@ -692,13 +700,13 @@ footer .iconsDiv .icons:hover{
         width: 50%;
     }
 
-    footer div a img{         
-        margin: 5% 0 0 32%;
-        width: 38%;
+    footer div a img{
+        margin: 5% 0 0 28%;
+        width: 50%;
     }
-            
+    
     footer .iconsDiv{
-        margin-left: 26%; 
+        margin-left: 28%;  
     }
 }
 
@@ -863,12 +871,13 @@ footer .iconsDiv .icons:hover{
 
     /* Configuração das sections das imagens das caixas */
     .caixa2 .divTextImg .sectionImg{
-        padding-top: 20%;
+        padding-top: 0%;
+        width: 100%;
     }
 
     .caixa3 .divTextImg .sectionImg{
-        padding-top: 15%;
-        padding-left: 5%;
+        padding-top: 0%;
+        padding-left: 2%;
     }
 
     .caixa5 .divTextImg .sectionClientFeedback .sectionClientFeedbackDiv .clientImg{
@@ -1205,6 +1214,6 @@ footer .iconsDiv .icons:hover{
 
     footer .iconsDiv .icons{
         font-size: 21px;
-        margin-right: 5%;
+        margin-left: 1%;
     }   
 }
