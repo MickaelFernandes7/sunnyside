@@ -352,7 +352,7 @@ footer .iconsDiv .icons:hover{
 }
 /* Fim configuração das Sections das imagens das caixas */
 
-@media(min-width: 320px) and (max-width: 375px){
+@media(min-width: 310px) and (max-width: 375px){
     /* header */
     header nav #logo{
         color: #fff;
